@@ -13,6 +13,7 @@
 		2D92D5CE1D63B648007778EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D92D5CC1D63B648007778EB /* Main.storyboard */; };
 		2D92D5D01D63B648007778EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D92D5CF1D63B648007778EB /* Assets.xcassets */; };
 		2D92D5D31D63B648007778EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D92D5D11D63B648007778EB /* LaunchScreen.storyboard */; };
+		2D92D5DC1D63C981007778EB /* PercentLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D92D5DB1D63C981007778EB /* PercentLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2D92D5CF1D63B648007778EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D92D5D21D63B648007778EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D92D5D41D63B648007778EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D92D5DA1D63C981007778EB /* PercentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentLayer.h; sourceTree = "<group>"; };
+		2D92D5DB1D63C981007778EB /* PercentLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				2D92D5C61D63B648007778EB /* AppDelegate.h */,
 				2D92D5C71D63B648007778EB /* AppDelegate.m */,
+				2D92D5DA1D63C981007778EB /* PercentLayer.h */,
+				2D92D5DB1D63C981007778EB /* PercentLayer.m */,
 				2D92D5C91D63B648007778EB /* ViewController.h */,
 				2D92D5CA1D63B648007778EB /* ViewController.m */,
 				2D92D5CC1D63B648007778EB /* Main.storyboard */,
@@ -152,6 +157,7 @@
 				2D92D5CB1D63B648007778EB /* ViewController.m in Sources */,
 				2D92D5C81D63B648007778EB /* AppDelegate.m in Sources */,
 				2D92D5C51D63B648007778EB /* main.m in Sources */,
+				2D92D5DC1D63C981007778EB /* PercentLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

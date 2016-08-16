@@ -7,21 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "PercentLayer.h"
 
 @interface ViewController ()
 
+@property (strong, nonatomic) PercentLayer* percentLayer;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	self.percentLayer = [[PercentLayer alloc] init];
+	[self.view.layer addSublayer:self.percentLayer];
 }
 
-- (void)didReceiveMemoryWarning {
-	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated {
+	self.percentLayer.percentScanned = 100;
+	CABasicAnimation *a = [CABasicAnimation animationWithKeyPath:@"percentScanned"];
+	[a setFromValue:@0];
+	[a setDuration:5];
+	[self.percentLayer addAnimation:a forKey:@"percentage"];
+	[super viewDidAppear:animated];
 }
+
 
 @end
